@@ -1,0 +1,112 @@
+Плагины:
+Dark Lavender
+Auto Close Tag
+Auto Import
+Auto Rename Tag
+Code Runner
+DotENV
+eCSStractor for VSCode
+ES7+ React/Redux/React-Native snippets
+Google Fonts
+htmltagwrap
+Import Cost
+IntelliCode
+Live Server
+Material Icon Theme
+npm Intellisense
+Path Autocomplete
+Path Intellisense
+Prettier - Code formatter
+Python
+Russian Language Pack for Visual Studio Code
+Sass (.sass only)
+SCSS Formatter
+SCSS IntelliSense
+Svg Preview
+Tailwind CSS IntelliSense
+Blackbox AI Code Generation, Code Chat, Code Search
+
+Настройки:
+
+{
+	"workbench.colorTheme": "Dark Lavender (Black)",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "none",
+	"editor.fontSize": 17,
+	"editor.tabSize": 2,
+	"material-icon-theme.hidesExplorerArrows": true,
+	"workbench.tree.renderIndentGuides": "none",
+	"workbench.layoutControl.enabled": false,
+	"editor.guides.indentation": false,
+	"editor.renderWhitespace": "none",
+	"editor.renderLineHighlight": "none",
+	"editor.matchBrackets": "never",
+	"editor.overviewRulerBorder": false,
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.detectIndentation": false,
+	"editor.fontLigatures": true,
+	"breadcrumbs.enabled": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"git.decorations.enabled": false,
+	"scm.diffDecorations": "none",
+	"files.insertFinalNewline": true,
+	"extensions.ignoreRecommendations": true,
+	"files.autoSave": "onFocusChange",
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.fontSize": 18,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.integrated.enablePersistentSessions": false,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"ecsstractor_port.bem_nesting": true,
+	"[scss]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.arrowParens": "avoid",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"typescript.suggest.paths": false,
+	"javascript.suggest.paths": false,
+
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"editor.letterSpacing": 0.5,
+	"editor.hover.delay": 1500,
+	"editor.glyphMargin": false,
+
+	"code-runner.clearPreviousOutput": true,
+	"code-runner.showExecutionMessage": false,
+	"code-runner.saveFileBeforeRun": true,
+	"security.workspace.trust.enabled": false,
+	"path-autocomplete.pathMappings": {
+		"@img": "${folder}/src/assets/templates/img",
+		"@scss": "${folder}/src/assets/templates/scss",
+		"@js": "${folder}/src/assets/templates/js"
+	}
+}
+
+
